@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MultiDimensionalArray">
+        <activity android:name=".SportMultiDimensionalArray">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArrayOfSports">
+        <activity android:name=".MultiDimensionalArray">
         </activity>
-        <activity android:name=".ModifyArray"></activity>
+        <activity android:name=".ArrayOfSports"></activity>
+        <activity android:name=".ModifyArray" />
         <activity android:name=".EnhancedForLoop" />
     </application>
 
