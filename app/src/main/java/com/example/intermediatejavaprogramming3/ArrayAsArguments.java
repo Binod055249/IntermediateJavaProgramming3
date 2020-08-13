@@ -13,7 +13,7 @@ public class ArrayAsArguments extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_array_as_arguments);
 
-        txtArrayValues=findViewById(R.id.txtArrayValues);
+        txtArrayValues=findViewById(R.id.txtArrayListValues);
         txtAverageValues=findViewById(R.id.txtAverageValue);
         String oldTxtArrayValues;
 

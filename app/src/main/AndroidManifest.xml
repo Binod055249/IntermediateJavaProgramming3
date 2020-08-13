@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PredefinedMethods">
+        <activity android:name=".ArrayListJava">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArrayAsArguments">
+        <activity android:name=".PredefinedMethods">
         </activity>
-        <activity android:name=".SportMultiDimensionalArray"></activity>
+        <activity android:name=".ArrayAsArguments"></activity>
+        <activity android:name=".SportMultiDimensionalArray" />
         <activity android:name=".MultiDimensionalArray" />
         <activity android:name=".ArrayOfSports" />
         <activity android:name=".ModifyArray" />
